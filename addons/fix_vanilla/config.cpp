@@ -20,6 +20,8 @@ class CfgPatches {
     };
 };
 
+#include "CfgAcc.hpp"
+#include "CfgMagazineWells.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgAmmo.hpp"
