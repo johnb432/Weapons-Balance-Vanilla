@@ -5,8 +5,6 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.96;
         requiredAddons[] = {
-            "cba_main",
-            "ace_ballistics",
             "A3_Weapons_F",
             "A3_weapons_f_beta",
             "A3_weapons_f_bootcamp",
