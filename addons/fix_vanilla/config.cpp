@@ -4,16 +4,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = 1.96;
-        requiredAddons[] = {
-            "A3_Weapons_F",
-            "A3_weapons_f_beta",
-            "A3_weapons_f_bootcamp",
-            "A3_weapons_f_epa",
-            "A3_weapons_f_epb",
-            "A3_weapons_f_epc",
-            "A3_weapons_f_gamma",
-            "A3_weapons_f_mod"
-        };
+        requiredAddons[] = {"ace_realisticnames"};
         author = "johnb43";
     };
 };
