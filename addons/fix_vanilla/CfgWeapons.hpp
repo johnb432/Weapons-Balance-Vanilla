@@ -146,6 +146,7 @@ class CfgWeapons {
     };
 
     class sgun_HunterShotgun_01_base_F: Rifle_Long_Base_F {
+        magazineWell[] += {"CBA_12g_1rnd","CBA_12g_2rnds"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 80;
         };
@@ -252,7 +253,6 @@ class CfgWeapons {
             mass = 16.7;
         };
     };
-
 
     class DMR_01_base_F: Rifle_Long_Base_F {
         modes[] = {"Single","single_close_optics1","single_medium_optics1","single_far_optics1"};

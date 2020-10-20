@@ -13,6 +13,12 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_338LM_AI {
+        WB_Magazines[] += {
+            "10Rnd_338_Mag"
+        };
+    };
+
     class CBA_556x45_STANAG {
         WB_Magazines[] += {
             "30rnd_556x45_Stanag_Sand_green",
@@ -68,13 +74,6 @@ class CfgMagazineWells {
     class CBA_762x51_SR25 {
         WB_Magazines[] += {
             "20Rnd_762x51_Mag"
-        };
-    };
-
-    class CBA_762x54R_LINKS {
-        WB_Magazines[] += {
-            "150Rnd_762x54_Box",
-            "150Rnd_762x54_Box_Tracer"
         };
     };
 
