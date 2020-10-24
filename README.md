@@ -26,6 +26,8 @@
             - Changed icon for DUI to MG
         - VS-121:
             - Removed full auto firing mode
+        - RPG-7:
+            - Changed weight from 3.63kg to 6.35kg
 
 - MagazineWells:
     - CBA:
