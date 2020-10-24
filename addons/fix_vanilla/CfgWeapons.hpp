@@ -277,4 +277,14 @@ class CfgWeapons {
     class arifle_MXM_khk_F: arifle_MXM_Black_F {
         displayName = "MXM (Khaki)";
     };
+
+    class Launcher;
+    class Launcher_Base_F: Launcher {
+        class WeaponSlotsInfo {};
+    };
+    class launch_RPG7_F: Launcher_Base_F {
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            mass = 140;
+        };
+    };
 };

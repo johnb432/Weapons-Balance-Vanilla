@@ -14,6 +14,7 @@ class CfgMagazines {
 
     class 10Rnd_762x54_Mag: 10Rnd_762x51_Mag {
         mass = 5.1;
+        modelSpecial = "";
     };
 
     class 30Rnd_556x45_Stanag: CA_Magazine {
