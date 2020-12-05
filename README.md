@@ -1,3 +1,14 @@
+# Changelog for Weapons balance 05.12.2020
+- Unhid multiple faces (mostly from basegame campaign) (Credit to Blutze)
+- Weapon changes:
+    - Vanilla:
+        - QBZ-95-1 LSW variants:
+           - Changed squad icon on DUI to AR type
+
+- Backpack changes:
+    - Vanilla:
+        - Effort to balance all radio backpacks, messenger bags and tactical packs to fit their counterparts from basegame/other mods
+
 # Changelog for Weapons balance 23.8.2020
 - Tweaked Vanilla MAAWS HEAT rounds - need testing
 

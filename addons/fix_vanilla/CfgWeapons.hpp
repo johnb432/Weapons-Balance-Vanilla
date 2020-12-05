@@ -134,6 +134,7 @@ class CfgWeapons {
         };
     };
     class arifle_CTARS_base_F: Rifle_Base_F {
+        UiPicture = "\a3\weapons_f\data\ui\icon_mg_ca.paa";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 86;
         };

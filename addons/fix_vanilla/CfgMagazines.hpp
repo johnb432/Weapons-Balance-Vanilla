@@ -4,6 +4,11 @@ class CfgMagazines {
     class 30Rnd_9x21_Mag;
     class 30Rnd_65x39_caseless_mag;
 
+    class Laserbatteries: CA_Magazine {
+        descriptionShort = "Batteries for Vanilla Laser Designator and BAF SOFLAM<br/>Does not fit into NVG<br/>Recycle after use.";
+        displayName = "Designator Batteries (Vanilla)";
+    };
+
     class 2Rnd_12Gauge_Pellets: CA_Magazine {
         mass = 2.2;
     };
@@ -109,5 +114,21 @@ class CfgMagazines {
     };
     class 30Rnd_65x39_caseless_msbs_mag_Tracer: 30Rnd_65x39_caseless_msbs_mag {
         displayName = "6.5 mm 30Rnd MSBS Tracer Mag";
+    };
+
+    class 16Rnd_9x21_Mag: 30Rnd_9x21_Mag {
+        count = 16;
+    };
+
+    class CA_LauncherMagazine;
+    class RPG32_F: CA_LauncherMagazine {
+        displayName = "RPG-32 AT Rocket";
+    };
+    class RPG32_HE_F: RPG32_F {
+        displayName = "RPG-32 HE Rocket";
+    };
+    class RPG7_F: RPG32_F {
+        displayName = "PG-7VM HEAT";
+        mass = 31.5;
     };
 };
