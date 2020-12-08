@@ -12,7 +12,6 @@ class CfgMagazines {
     class 2Rnd_12Gauge_Pellets: CA_Magazine {
         mass = 2.2;
     };
-
     class 6Rnd_12Gauge_Pellets: 2Rnd_12Gauge_Pellets {
         mass = 6.6;
     };
@@ -49,10 +48,6 @@ class CfgMagazines {
     class 30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow: 30Rnd_45ACP_Mag_SMG_01 {
         descriptionShort = "Caliber: .45 ACP Tracers - Yellow<br/>Rounds: 25<br/>Used in: Vermin SMG";
         displayName = ".45 ACP 25Rnd Vermin Tracers (Yellow) Mag";
-    };
-
-    class 16Rnd_9x21_Mag: 30Rnd_9x21_Mag {
-        count = 16;
     };
 
     class 200Rnd_556x45_Box_F: CA_Magazine {
