@@ -4,6 +4,7 @@ class CfgWeapons {
     class arifle_MX_SW_Black_F;
     class arifle_MXC_Black_F;
     class arifle_MXM_Black_F;
+    class Launcher;
 
     class Rifle;
     class Rifle_Base_F: Rifle {
@@ -279,13 +280,12 @@ class CfgWeapons {
         displayName = "MXM (Khaki)";
     };
 
-    class Launcher;
     class Launcher_Base_F: Launcher {
         class WeaponSlotsInfo {};
     };
     class launch_RPG7_F: Launcher_Base_F {
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 140;
+            mass = 120;
         };
     };
 };

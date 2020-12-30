@@ -92,6 +92,12 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_Carl_Gustaf {
+        WB_Magazines[] += {
+            "MRAWS_HEAT55_F"
+        };
+    };
+
     class M240_762x51 {
         WB_Magazines[] += {
             "150Rnd_762x51_Box",

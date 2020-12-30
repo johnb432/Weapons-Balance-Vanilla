@@ -1,4 +1,26 @@
 # Changelog for Weapons balance 05.12.2020
+
+- Weapon changes:
+    - Vanilla:
+        - RPG-7:
+            - Changed weight from 6.35kg to 5.44kg
+
+- MagazineWells:
+    - CBA:
+        - .338LM AI:
+            - Added 1x Vanilla 10Rnd mag
+        - Carl Gustaf:
+            - Added 1x Vanilla HEAT 55 round
+
+- Vehicles:
+    - Vanilla:
+        - Tracked APCs:
+            - Added TFAR intercom channels. **This affects other vehicles from other mods**
+        - Merkava:
+            - Added TFAR intercom channels
+
+# Changelog for Weapons balance 05.12.2020
+
 - Unhid multiple faces (mostly from basegame campaign) (Credit to Blutze)
 - Weapon changes:
     - Vanilla:
@@ -10,6 +32,7 @@
         - Effort to balance all radio backpacks, messenger bags and tactical packs to fit their counterparts from basegame/other mods
 
 # Changelog for Weapons balance 23.8.2020
+
 - Tweaked Vanilla MAAWS HEAT rounds - need testing
 
 - Weapon changes:

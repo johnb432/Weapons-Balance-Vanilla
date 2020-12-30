@@ -15,6 +15,9 @@ class CfgMagazines {
     class 6Rnd_12Gauge_Pellets: 2Rnd_12Gauge_Pellets {
         mass = 6.6;
     };
+    class 6Rnd_12Gauge_Slug: 2Rnd_12Gauge_Pellets {
+        mass = 6.6;
+    };
 
     class 10Rnd_762x54_Mag: 10Rnd_762x51_Mag {
         mass = 5.1;
