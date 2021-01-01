@@ -241,6 +241,7 @@ class CfgWeapons {
 
     class Pistol;
     class Pistol_Base_F: Pistol {
+        magazineReloadTime = 0;
         class WeaponSlotsInfo {};
     };
     class hgun_Rook40_F: Pistol_Base_F {
@@ -281,6 +282,7 @@ class CfgWeapons {
     };
 
     class Launcher_Base_F: Launcher {
+        magazineReloadTime = 0;
         class WeaponSlotsInfo {};
     };
     class launch_RPG7_F: Launcher_Base_F {

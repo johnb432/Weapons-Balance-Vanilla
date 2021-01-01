@@ -1,6 +1,8 @@
-# Changelog for Weapons balance 05.12.2020
+# Changelog for Weapons balance 31.12.2020
 
 - Weapon changes:
+    - Removed config that makes pistols and launchers reload when selecting in arsenal
+
     - Vanilla:
         - RPG-7:
             - Changed weight from 6.35kg to 5.44kg
