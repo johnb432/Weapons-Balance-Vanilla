@@ -69,7 +69,7 @@ class rhs_western_rifle_muzzle_slot: asdg_MuzzleSlot_556 {
     };
 };
 
-class asdg_MuzzleSlot_556_3CB_HK33: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_556_HK33: asdg_MuzzleSlot {
     class compatibleItems {
         muzzle_snds_m = 1;
         muzzle_snds_m_khk_f = 1;
@@ -77,7 +77,7 @@ class asdg_MuzzleSlot_556_3CB_HK33: asdg_MuzzleSlot {
     };
 };
 
-class asdg_MuzzleSlot_762_3CB_G3: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot {
     class compatibleItems {
         muzzle_snds_b = 1;
         muzzle_snds_b_khk_f = 1;
@@ -86,7 +86,7 @@ class asdg_MuzzleSlot_762_3CB_G3: asdg_MuzzleSlot {
         muzzle_snds_b_lush_f = 1;
     };
 };
-class asdg_MuzzleSlot_762_3CB_M14: asdg_MuzzleSlot {
+class UK3CB_MuzzleSlot_762_M14: asdg_MuzzleSlot {
     class compatibleItems {
         muzzle_snds_b = 1;
         muzzle_snds_b_khk_f = 1;

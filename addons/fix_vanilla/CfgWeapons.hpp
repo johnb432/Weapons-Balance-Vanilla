@@ -17,6 +17,7 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class LMG_03_base_F: Rifle_Long_Base_F {
+        magazineReloadTime = 0;
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class LMG_03_F: LMG_03_base_F {
@@ -286,8 +287,15 @@ class CfgWeapons {
         class WeaponSlotsInfo {};
     };
     class launch_RPG7_F: Launcher_Base_F {
+        ace_reloadlaunchers_enabled = 1;
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 120;
         };
+    };
+    class launch_MRAWS_base_F: Launcher_Base_F {
+        ace_reloadlaunchers_enabled = 1;
+    };
+    class launch_Vorona_base_F: Launcher_Base_F {
+        ace_reloadlaunchers_enabled = 1;
     };
 };

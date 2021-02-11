@@ -1,3 +1,7 @@
+# Changelog for Weapons balance 11.02.2021
+
+- Moved TFAR things to a separate compat mod
+
 # Changelog for Weapons balance 31.12.2020
 
 - Weapon changes:
