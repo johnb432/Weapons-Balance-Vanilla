@@ -1,9 +1,11 @@
+#include "script_component.hpp"
+
 class CfgPatches {
-    class WB_fix_vanilla {
-        name = "Weapons balance - Fix basegame";
+    class ADDON {
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.96;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cba_main",
             "ace_realisticnames",

@@ -64,6 +64,12 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_762x51_HK417 {
+        FK_Magazines[] = {
+            "20Rnd_762x51_Mag"
+        };
+    };
+
     class CBA_762x51_M14 {
         WB_Magazines[] += {
             "10Rnd_Mk14_762x51_Mag",

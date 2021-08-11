@@ -24,7 +24,6 @@ class CfgVehicles {
     class B_TacticalPack_Base: Bag_Base {
         mass = 35;
     };
-    
     class B_RadioBag_01_base_F: Bag_Base {
         mass = 90;
     };

@@ -1,9 +1,16 @@
+class asdg_OpticRail1913_long;
+class asdg_OpticSideRail_AK;
+class asdg_MuzzleSlot_762;
+class MuzzleSlot_545R;
+class MuzzleSlot_762R;
+
 class CfgWeapons {
     class arifle_MX_GL_Black_F;
     class arifle_MX_Black_F;
     class arifle_MX_SW_Black_F;
     class arifle_MXC_Black_F;
     class arifle_MXM_Black_F;
+    class Pistol;
     class Launcher;
 
     class Rifle;
@@ -25,6 +32,56 @@ class CfgWeapons {
         displayName = "FN Minimi Mk3";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 176.3;
+        };
+    };
+
+    class LMG_Mk200_F: Rifle_Long_Base_F {
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            class CowsSlot: asdg_OpticRail1913_long {};
+        };
+    };
+
+    class LMG_Zafir_F: Rifle_Long_Base_F {
+        displayName = "Negev NG-7R";
+        class WeaponSlotsInfo: WeaponSlotsInfo {};
+    };
+    class LMG_Zafir_B_F: LMG_Zafir_F {
+        _generalMacro = "LMG_Zafir_B_F";
+        ACE_barrelLength = 508;
+        baseWeapon = "LMG_Zafir_B_F";
+        descriptionShort = "Light Machine Gun<br />Caliber: 7.62x51 mm";
+        displayName = "Negev NG-7";
+        magazines[] = {"150Rnd_762x51_Box"};
+        magazineWell[] = {"M240_762x51","CBA_762x51_LINKS"};
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            class MuzzleSlot: asdg_MuzzleSlot_762 {};
+        };
+    };
+
+    class EBR_base_F: Rifle_Long_Base_F {
+        class WeaponSlotsInfo: WeaponSlotsInfo {};
+    };
+    class srifle_EBR_F: EBR_base_F {
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            class CowsSlot: asdg_OpticRail1913_long {};
+        };
+    };
+
+    class GM6_base_F: Rifle_Long_Base_F {
+        class WeaponSlotsInfo: WeaponSlotsInfo {};
+    };
+    class srifle_GM6_F: GM6_base_F {
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            class CowsSlot: asdg_OpticRail1913_long {};
+        };
+    };
+
+    class arifle_MX_Base_F: Rifle_Base_F {
+        class WeaponSlotsInfo: WeaponSlotsInfo {};
+    };
+    class arifle_MXM_F: arifle_MX_Base_F {
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            class CowsSlot: asdg_OpticRail1913_long {};
         };
     };
 
@@ -99,13 +156,28 @@ class CfgWeapons {
     };
 
     class arifle_AKM_base_F: Rifle_Base_F {
+        rhs_1p29_type = "rhs_acc_1p29";
+        rhs_pgo7v_type = "rhs_acc_pgo7v_ak";
+        rhs_pgo7v2_type = "rhs_acc_pgo7v2_ak";
+        rhs_pgo7v3_type = "rhs_acc_pgo7v3_ak";
+        rhs_pkas_type = "rhs_acc_pkas";
+        rhs_pso1m2_type = "rhs_acc_pso1m2_ak";
+        rhs_pso1m21_type = "rhs_acc_pso1m21_ak";
+
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 69.1;
+            mass = 70.1;
+            class CowsSlot: asdg_OpticSideRail_AK {};
+            class MuzzleSlot: MuzzleSlot_762R {};
         };
     };
+    class arifle_AKM_F: arifle_AKM_base_F {
+        displayName = "AKMN";
+    };
+
     class arifle_AKS_base_F: Rifle_Base_F {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 59.6;
+            class MuzzleSlot: MuzzleSlot_545R {};
         };
     };
 
@@ -162,6 +234,7 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class SMG_05_F: SMG_05_base_F {
+        displayName = "HK MP5K-PDW";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 56;
         };
@@ -240,7 +313,6 @@ class CfgWeapons {
         };
     };
 
-    class Pistol;
     class Pistol_Base_F: Pistol {
         magazineReloadTime = 0;
         class WeaponSlotsInfo {};

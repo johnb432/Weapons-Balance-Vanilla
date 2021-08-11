@@ -1,4 +1,35 @@
-# Changelog for Weapons balance 11.02.2021
+# Changelog for Weapons balance 9.8.2021
+
+1.1.0.0
+- Added hemtt support
+- Added NATO Negev NG-7
+
+- Weapon changes:
+    - Vanilla:
+        - AKM:
+            - Added various AK scopes and muzzle attachments (because RHS did already some, added more though)
+            - Changed name to "AKMN"
+            - Changed weight from 3.13kg to 3.18kg
+        - AKS-74U:
+            - Added various AK muzzle attachments (because RHS did already some, added more though)
+        - MP5K:
+            - Changed name to "HK MP5K-PDW"
+        - Mk200:
+            - Added long scope rail
+        - Negev:
+            - Changed name to "Negev NG-7R"
+        - Mk14 Mod 1 EBR:
+            - Added long scope rail
+        - GM6 variants:
+            - Added long scope rail
+        - MXM variants:
+            - Added long scope rail
+
+- Weight balancing:
+    - Vanilla:
+        - 1x 20Rnd 7.62x51 NATO mag from 0.54kg to 0.74kg
+
+# Changelog for Weapons balance 11.2.2021
 
 - Moved TFAR things to a separate compat mod
 
@@ -25,7 +56,7 @@
         - Merkava:
             - Added TFAR intercom channels
 
-# Changelog for Weapons balance 05.12.2020
+# Changelog for Weapons balance 5.12.2020
 
 - Unhid multiple faces (mostly from basegame campaign) (Credit to Blutze)
 - Weapon changes:

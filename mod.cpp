@@ -1,6 +1,5 @@
-name = "Weapons balance - Vanilla";
-description = "A collection of weight balancing mods made by johnb43";
-tooltip = "Weight balance";
-tooltipOwned = "Weight balance";
-overview = "";
+name = "Weapons Balance - Vanilla";
+description = "A collection of balancing mods made by johnb43";
+tooltip = "Weapons Balance - Vanilla";
+tooltipOwned = "Weapons Balance - Vanilla";
 author = "johnb43";

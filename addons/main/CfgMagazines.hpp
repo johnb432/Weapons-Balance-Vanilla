@@ -24,6 +24,10 @@ class CfgMagazines {
         modelSpecial = "";
     };
 
+    class 20Rnd_762x51_Mag: CA_Magazine {
+        mass = 16.24;
+    };
+
     class 30Rnd_556x45_Stanag: CA_Magazine {
         mass = 9.35;
     };
@@ -37,20 +41,20 @@ class CfgMagazines {
     };
 
     class 30Rnd_45ACP_Mag_SMG_01: 30Rnd_9x21_Mag {
-        descriptionShort = "Caliber: .45 ACP<br/>Rounds: 25<br/>Used in: Vermin SMG";
-        displayName = ".45 ACP 25Rnd Vermin Mag";
+        descriptionShort = "Caliber: .45 ACP<br/>Rounds: 25<br/>Used in: Vector SMG";
+        displayName = ".45 ACP 25Rnd Vector Mag";
     };
     class 30Rnd_45ACP_Mag_SMG_01_Tracer_Green: 30Rnd_45ACP_Mag_SMG_01 {
-        descriptionShort = "Caliber: .45 ACP Tracers - Green<br/>Rounds: 25<br/>Used in: Vermin SMG";
-        displayName = ".45 ACP 25Rnd Vermin Tracers (Green) Mag";
+        descriptionShort = "Caliber: .45 ACP Tracers - Green<br/>Rounds: 25<br/>Used in: Vector SMG";
+        displayName = ".45 ACP 25Rnd Vector Tracers (Green) Mag";
     };
     class 30Rnd_45ACP_Mag_SMG_01_Tracer_Red: 30Rnd_45ACP_Mag_SMG_01 {
-        descriptionShort = "Caliber: .45 ACP Tracers - Red<br/>Rounds: 25<br/>Used in: Vermin SMG";
-        displayName = ".45 ACP 25Rnd Vermin Tracers (Red) Mag";
+        descriptionShort = "Caliber: .45 ACP Tracers - Red<br/>Rounds: 25<br/>Used in: Vector SMG";
+        displayName = ".45 ACP 25Rnd Vector Tracers (Red) Mag";
     };
     class 30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow: 30Rnd_45ACP_Mag_SMG_01 {
-        descriptionShort = "Caliber: .45 ACP Tracers - Yellow<br/>Rounds: 25<br/>Used in: Vermin SMG";
-        displayName = ".45 ACP 25Rnd Vermin Tracers (Yellow) Mag";
+        descriptionShort = "Caliber: .45 ACP Tracers - Yellow<br/>Rounds: 25<br/>Used in: Vector SMG";
+        displayName = ".45 ACP 25Rnd Vector Tracers (Yellow) Mag";
     };
 
     class 200Rnd_556x45_Box_F: CA_Magazine {
