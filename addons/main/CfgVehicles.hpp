@@ -27,4 +27,8 @@ class CfgVehicles {
     class B_RadioBag_01_base_F: Bag_Base {
         mass = 90;
     };
+
+    class B_CivilianBackpack_01_Base_F: Bag_Base {
+        mass = 35;
+    };
 };

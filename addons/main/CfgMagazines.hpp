@@ -27,6 +27,9 @@ class CfgMagazines {
     class 20Rnd_762x51_Mag: CA_Magazine {
         mass = 16.24;
     };
+    class 10Rnd_Mk14_762x51_Mag: 20Rnd_762x51_Mag {
+        mass = 8.9;
+    };
 
     class 30Rnd_556x45_Stanag: CA_Magazine {
         mass = 9.35;
