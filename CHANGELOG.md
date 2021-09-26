@@ -3,11 +3,11 @@
 1.1.0.1
 - Weight balancing:
     - Vanilla:
-        - 1x 10Rnd 7.62x51 NATO mag from 0.23kg to 0.40kg
+        - 1x 10Rnd 7.62x51 NATO mag from 0.27kg to 0.40kg
 
 - Backpack changes:
     - Vanilla:
-        - Changed "Everyday/Sports Backpacks"
+        - Changed "Everyday/Sports Backpacks" weight
 
 # Changelog for Weapons balance 9.8.2021
 
