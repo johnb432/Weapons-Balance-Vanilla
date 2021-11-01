@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 1.11.2021
+
+1.1.0.2
+- Some background changes, nothing much content wise.
+
 # Changelog for Weapons balance 26.9.2021
 
 1.1.0.1
