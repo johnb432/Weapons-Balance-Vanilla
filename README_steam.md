@@ -5,6 +5,7 @@ This rebalancing balances items from the basegame:
 [*]Magazine weight balancing
 [*]Magazine compatibility
 [*]Name & description fixes
+[*]and further changes
 [/list]
 
 Visit the [url=https://github.com/johnb432/Weapons-Balance-Vanilla]GitHub[/url] to get all the changed items.
