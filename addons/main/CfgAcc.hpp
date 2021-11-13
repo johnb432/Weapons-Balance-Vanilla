@@ -41,6 +41,8 @@ class rhs_western_rifle_gripod_slot : rhs_rifle_gripod_slot {
 class CowsSlot;
 class CowsSlot_Rail: CowsSlot {
     class compatibleItems {
+        optic_mrd = 1;
+        optic_mrd_black = 1;
         optic_yorris = 1;
     };
 };

@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 13.11.2021
+
+1.1.0.3
+- Added some more compatibility for attachments and magazines.
+
 # Changelog for Weapons balance 1.11.2021
 
 1.1.0.2

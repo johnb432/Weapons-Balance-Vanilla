@@ -30,6 +30,7 @@ class CfgWeapons {
     class LMG_03_F: LMG_03_base_F {
         ACE_Overheating_allowSwapBarrel = 1;
         displayName = "FN Minimi Mk3";
+        magazineWell[] += {"M249_556x45"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 176.3;
         };
@@ -43,6 +44,7 @@ class CfgWeapons {
 
     class LMG_Zafir_F: Rifle_Long_Base_F {
         displayName = "Negev NG-7R";
+        magazineWell[] += {"PK_762x54R"};
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
     class LMG_Zafir_B_F: LMG_Zafir_F {
