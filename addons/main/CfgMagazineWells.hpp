@@ -40,6 +40,17 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_580x42_TYPE95_XL {
+        WB_Magazines[] += {
+            "100Rnd_580x42_Mag_F",
+            "100Rnd_580x42_Mag_Tracer_F",
+            "100Rnd_580x42_hex_Mag_F",
+            "100Rnd_580x42_hex_Mag_Tracer_F",
+            "100Rnd_580x42_ghex_Mag_F",
+            "100Rnd_580x42_ghex_Mag_Tracer_F"
+        };
+    };
+
     class CBA_762x39_AK {
         WB_Magazines[] += {
             "30rnd_762x39_AK12_Lush_Mag_F",

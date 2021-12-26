@@ -1,3 +1,16 @@
+# Changelog for Weapons balance 26.12.2021
+
+1.1.0.4
+- Weapon changes:
+    - Vanilla:
+        - MSBS Grot SGs:
+            - Added CBA magwell for shotgun shells
+
+- MagazineWells:
+    - CBA:
+        - 5.8x42 drums:
+            - Added 6x Vanilla 100Rnd mags
+
 # Changelog for Weapons balance 13.11.2021
 
 1.1.0.3

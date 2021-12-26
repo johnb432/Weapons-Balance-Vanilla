@@ -140,6 +140,9 @@ class CfgWeapons {
     };
 
     class arifle_MSBS65_UBS_base_F: arifle_MSBS65_base_F {
+        class UBS_F: Rifle_Base_F {
+            magazineWell[] += {"CBA_12g_1rnd","CBA_12g_2rnds","CBA_12g_3rnds","CBA_12g_4rnds","CBA_12g_5rnds","CBA_12g_6rnds"};
+        };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 110;
         };
