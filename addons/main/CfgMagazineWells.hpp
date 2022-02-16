@@ -76,7 +76,7 @@ class CfgMagazineWells {
     };
 
     class CBA_762x51_HK417 {
-        FK_Magazines[] = {
+        WB_Magazines[] += {
             "20Rnd_762x51_Mag"
         };
     };
@@ -91,6 +91,12 @@ class CfgMagazineWells {
     class CBA_762x51_SR25 {
         WB_Magazines[] += {
             "20Rnd_762x51_Mag"
+        };
+    };
+
+    class CBA_762x54R_SVD {
+        WB_Magazines[] += {
+            "10Rnd_762x54_Mag"
         };
     };
 
@@ -138,6 +144,12 @@ class CfgMagazineWells {
             "30Rnd_556x45_Stanag_Sand_Tracer_Green",
             "30Rnd_556x45_Stanag_Sand_Tracer_Red",
             "30Rnd_556x45_Stanag_Sand_Tracer_Yellow"
+        };
+    };
+
+    class SVD_762x54R {
+        WB_Magazines[] += {
+            "10Rnd_762x54_Mag"
         };
     };
 };
