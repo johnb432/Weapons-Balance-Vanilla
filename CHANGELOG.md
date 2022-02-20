@@ -1,7 +1,7 @@
 # Changelog for Weapons balance 20.2.2022
 
 1.1.0.7
-- Unhid AKMN (Flashlight).
+- Unhid AKM (Flashlight).
 
 # Changelog for Weapons balance 16.2.2022
 
