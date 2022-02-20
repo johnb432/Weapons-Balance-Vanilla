@@ -16,6 +16,17 @@ class arifle_AKM_base_F: Rifle_Base_F {
 class arifle_AKM_F: arifle_AKM_base_F {
     displayName = "AKMN";
 };
+class arifle_AKM_FL_F: arifle_AKM_F {
+    baseWeapon = "arifle_AKM_FL_F";
+    displayName = "AKM (Flashlight)";
+    scope = 2;
+
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 70.6;
+        class CowsSlot {};
+        class MuzzleSlot {};
+    };
+};
 
 class arifle_AKS_base_F: Rifle_Base_F {
     class WeaponSlotsInfo: WeaponSlotsInfo {

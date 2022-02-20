@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 20.2.2022
+
+1.1.0.7
+- Unhid AKMN (Flashlight).
+
 # Changelog for Weapons balance 16.2.2022
 
 1.1.0.6
@@ -6,7 +11,7 @@
 # Changelog for Weapons balance 21.1.2022
 
 1.1.0.5
-- Added AK-15s with russian muzzle attachment & VOG25 grenades compatibility.
+- Added AK-15s with russian muzzle attachment & VOG25 grenade compatibility.
 - Cleanup.
 
 # Changelog for Weapons balance 26.12.2021
