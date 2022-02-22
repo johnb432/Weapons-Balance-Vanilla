@@ -4,7 +4,6 @@ tooltip = "Weapons Balance - Vanilla";
 tooltipOwned = "Weapons Balance - Vanilla";
 hideName = 0;
 hidePicture = 0;
-dir = "@wb_vanilla";
 actionName = "Github";
 action = "https://github.com/johnb432/Weapons-Balance-Vanilla";
 description = "A collection of balancing mods made by johnb43.";
