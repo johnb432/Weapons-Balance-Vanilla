@@ -19,9 +19,8 @@ class nia_rifle_grips_slot: UnderBarrelSlot {
 };
 
 class rhs_rifle_gripod_slot: UnderBarrelSlot {
-    class compatibleItems {};
+    class compatibleItems;
 };
-
 class rhs_western_rifle_gripod_slot : rhs_rifle_gripod_slot {
     class compatibleItems: compatibleItems {
         bipod_01_F_blk = 1;
@@ -48,7 +47,7 @@ class CowsSlot_Rail: CowsSlot {
 };
 
 class asdg_OpticRail: asdg_SlotInfo {
-    class compatibleItems {};
+    class compatibleItems;
 };
 class asdg_OpticRail1913: asdg_OpticRail {
     class compatibleItems {
@@ -58,13 +57,12 @@ class asdg_OpticRail1913: asdg_OpticRail {
 };
 
 class asdg_MuzzleSlot: asdg_SlotInfo {
-    class compatibleItems {};
+    class compatibleItems;
 };
 
 class asdg_MuzzleSlot_556: asdg_MuzzleSlot {
-    class compatibleItems {};
+    class compatibleItems;
 };
-
 class rhs_western_rifle_muzzle_slot: asdg_MuzzleSlot_556 {
     class compatibleItems: compatibleItems {
         muzzle_snds_M = 1;

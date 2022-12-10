@@ -42,7 +42,6 @@ class arifle_AK12_base_F: Rifle_Base_F {
 };
 
 class arifle_AK12_GL_base_F: arifle_AK12_base_F {
-    class EGLM: UGL_F {};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 110;
     };
@@ -50,18 +49,18 @@ class arifle_AK12_GL_base_F: arifle_AK12_base_F {
 
 class arifle_AK12_GL_F: arifle_AK12_GL_base_F {
     displayName = "AK-15 (GP-25)";
-    class EGLM: EGLM {};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class EGLM;
+    class WeaponSlotsInfo;
 };
 class arifle_AK12_GL_arid_F: arifle_AK12_GL_base_F {
     displayName = "AK-15 (GP-25/Arid)";
-    class EGLM: EGLM {};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class EGLM;
+    class WeaponSlotsInfo;
 };
 class arifle_AK12_GL_lush_F: arifle_AK12_GL_base_F {
     displayName = "AK-15 (GP-25/Lush)";
-    class EGLM: EGLM {};
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class EGLM;
+    class WeaponSlotsInfo;
 };
 
 class arifle_AK12U_base_F: arifle_AK12_base_F {

@@ -101,6 +101,12 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_762x51_SCAR {
+        MAGAZINE_WELL[] += {
+            "20Rnd_762x51_Mag"
+        };
+    };
+
     class CBA_762x51_SR25 {
         MAGAZINE_WELL[] += {
             "20Rnd_762x51_Mag"
@@ -116,6 +122,12 @@ class CfgMagazineWells {
     class CBA_9x18_PM {
         MAGAZINE_WELL[] += {
             "10Rnd_9x21_Mag"
+        };
+    };
+
+    class CBA_9x19_Glock_Full {
+        MAGAZINE_WELL[] += {
+            "16Rnd_9x21_Mag"
         };
     };
 

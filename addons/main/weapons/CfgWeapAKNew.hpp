@@ -1,11 +1,11 @@
 class arifle_AK12_F: arifle_AK12_base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class arifle_AK12_arid_F: arifle_AK12_base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class arifle_AK12_lush_F: arifle_AK12_base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 
 class arifle_AK15_F: arifle_AK12_F {
@@ -28,16 +28,16 @@ class arifle_AK15_lush_F: arifle_AK12_lush_F {
 };
 
 class arifle_AK12U_base_F: arifle_AK12_base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class arifle_AK12U_F: arifle_AK12U_base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class arifle_AK12U_arid_F: arifle_AK12U_base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class arifle_AK12U_lush_F: arifle_AK12U_base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 
 class arifle_AK15U_F: arifle_AK12U_F {

@@ -41,9 +41,8 @@ class MuzzleSlot_762R;
 class CfgWeapons {
     class Rifle;
     class Rifle_Base_F: Rifle {
-        class WeaponSlotsInfo {};
+        class WeaponSlotsInfo;
     };
-    class UGL_F;
 
     #include "weapons\CfgWeapMisc.hpp"
     #include "weapons\CfgWeapAK.hpp"

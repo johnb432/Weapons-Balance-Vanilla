@@ -7,14 +7,11 @@ class Pistol;
 class Launcher;
 
 class Rifle_Long_Base_F: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-class DMR_06_base_F: Rifle_Long_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class LMG_03_base_F: Rifle_Long_Base_F {
     magazineReloadTime = 0;
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class LMG_03_F: LMG_03_base_F {
     ACE_Overheating_allowSwapBarrel = 1;
@@ -49,7 +46,7 @@ class LMG_Zafir_B_F: LMG_Zafir_F {
 };
 
 class EBR_base_F: Rifle_Long_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class srifle_EBR_F: EBR_base_F {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -58,7 +55,7 @@ class srifle_EBR_F: EBR_base_F {
 };
 
 class GM6_base_F: Rifle_Long_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class srifle_GM6_F: GM6_base_F {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -67,7 +64,7 @@ class srifle_GM6_F: GM6_base_F {
 };
 
 class arifle_MX_Base_F: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class arifle_MXM_F: arifle_MX_Base_F {
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -99,6 +96,9 @@ class arifle_MSBS65_UBS_base_F: arifle_MSBS65_base_F {
     };
 };
 
+class DMR_06_base_F: Rifle_Long_Base_F {
+    class WeaponSlotsInfo;
+};
 class DMR_06_hunter_base_F: DMR_06_base_F {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 92;
@@ -181,13 +181,9 @@ class sgun_HunterShotgun_01_base_F: Rifle_Long_Base_F {
     };
 };
 
-class Rifle_Short_Base_F: Rifle_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {};
-};
-
 class Pistol_Base_F: Pistol {
     magazineReloadTime = 0;
-    class WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class hgun_Rook40_F: Pistol_Base_F {
     magazineWell[] += {"CBA_9x19_MP443"};
@@ -205,7 +201,7 @@ class hgun_Pistol_01_F: Pistol_Base_F {
 
 class Launcher_Base_F: Launcher {
     magazineReloadTime = 0;
-    class WeaponSlotsInfo {};
+    class WeaponSlotsInfo;
 };
 class launch_RPG7_F: Launcher_Base_F {
     ace_reloadlaunchers_enabled = 1;
