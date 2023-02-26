@@ -19,9 +19,9 @@ class nia_rifle_grips_slot: UnderBarrelSlot {
 };
 
 class rhs_rifle_gripod_slot: UnderBarrelSlot {
-    class compatibleItems;
+    class compatibleItems {};
 };
-class rhs_western_rifle_gripod_slot : rhs_rifle_gripod_slot {
+class rhs_western_rifle_gripod_slot: rhs_rifle_gripod_slot {
     class compatibleItems: compatibleItems {
         bipod_01_F_blk = 1;
         bipod_01_F_khk = 1;

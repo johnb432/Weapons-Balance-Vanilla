@@ -1,3 +1,8 @@
+# Changelog for Weapons balance 26.2.2023
+
+1.1.0.12
+- Moved some of the renaming of weapons from "Weapons Balance - Vanilla" to "Weapons Balance - ACE".
+
 # Changelog for Weapons balance 10.12.2022
 
 1.1.0.11

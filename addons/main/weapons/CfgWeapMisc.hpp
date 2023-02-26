@@ -154,26 +154,6 @@ class DMR_01_base_F: Rifle_Long_Base_F {
     modes[] = {"Single","single_close_optics1","single_medium_optics1","single_far_optics1"};
 };
 
-class arifle_MX_GL_khk_F: arifle_MX_GL_Black_F {
-    displayName = "MX 3GL (Khaki)";
-};
-
-class arifle_MX_khk_F: arifle_MX_Black_F {
-    displayName = "MX (Khaki)";
-};
-
-class arifle_MX_SW_khk_F: arifle_MX_SW_Black_F {
-    displayName = "MX LSW (Khaki)";
-};
-
-class arifle_MXC_khk_F: arifle_MXC_Black_F {
-    displayName = "MXC (Khaki)";
-};
-
-class arifle_MXM_khk_F: arifle_MXM_Black_F {
-    displayName = "MXM (Khaki)";
-};
-
 class sgun_HunterShotgun_01_base_F: Rifle_Long_Base_F {
     magazineWell[] += {"CBA_12g_1rnd","CBA_12g_2rnds"};
     class WeaponSlotsInfo: WeaponSlotsInfo {

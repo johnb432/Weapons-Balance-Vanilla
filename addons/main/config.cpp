@@ -12,7 +12,6 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ace_realisticnames",
             "A3_Data_F_AoW_Loadorder"
         };
         author = "johnb43";
