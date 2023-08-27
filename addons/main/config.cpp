@@ -12,7 +12,7 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "A3_Data_F_AoW_Loadorder"
+            "cba_main"
         };
         author = "johnb43";
         authors[] = {

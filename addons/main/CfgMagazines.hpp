@@ -60,9 +60,41 @@ class CfgMagazines {
         displayName = ".45 ACP 25Rnd Vector Tracers (Yellow) Mag";
     };
 
+    #if __has_include("\hlc_wp_mp5\config.bin")
+        class 30Rnd_9x21_Mag_SMG_02: 30Rnd_9x21_Mag {
+            model = "hlc_wp_mp5\mesh\magazine\magazine.p3d";
+            modelSpecial = "hlc_wp_mp5\mesh\magazine\proxy\30Rnd_9x19_MP5";
+            modelSpecialIsProxy = 1;
+        };
+    #endif
+
+    #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+        class 150Rnd_762x51_Box: CA_Magazine {
+            model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m240_mag";
+            modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_762x51_m240_pouch_100rnd";
+            modelSpecialIsProxy = 1;
+        };
+    #else
+        #if __has_include("\hlc_wp_m60E4\config.bin")
+            class 150Rnd_762x51_Box: CA_Magazine {
+                model = "hlc_core\mesh\magazines\100rnd_762NATO_M60.p3d";
+                modelSpecial = "\hlc_core\mesh\magazines\proxies\50Rnd_762NATO_M60";
+                modelSpecialIsProxy = 1;
+            };
+        #endif
+    #endif
+
     class 200Rnd_556x45_Box_F: CA_Magazine {
         mass = 51.65;
-        reloadAction = "GestureReloadM200";
+
+        #if __has_include("\rhsusf\addons\rhsusf_main\loadorder\config.bin")
+            model = "\rhsusf\addons\rhsusf_weapons\magazines\rhs_m249_box_mag";
+            modelSpecial = "rhsusf\addons\rhsusf_weapons\mag_proxies\rhs_mag_556x45_m249_box_200rnd";
+            modelSpecialIsProxy = 1;
+            reloadAction = "rhs_GestureReloadM249";
+        #else
+            reloadAction = "GestureReloadM200";
+        #endif
     };
 
     class 30Rnd_762x39_Mag_F: CA_Magazine {

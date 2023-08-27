@@ -10,7 +10,6 @@ class Rifle_Long_Base_F: Rifle_Base_F {
     class WeaponSlotsInfo;
 };
 class LMG_03_base_F: Rifle_Long_Base_F {
-    magazineReloadTime = 0;
     class WeaponSlotsInfo;
 };
 class LMG_03_F: LMG_03_base_F {
@@ -19,12 +18,6 @@ class LMG_03_F: LMG_03_base_F {
     magazineWell[] += {"M249_556x45"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 176.3;
-    };
-};
-
-class LMG_Mk200_F: Rifle_Long_Base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
-        class CowsSlot: asdg_OpticRail1913_long {};
     };
 };
 
@@ -43,6 +36,12 @@ class LMG_Zafir_B_F: LMG_Zafir_F {
     displayName = "Negev NG-7";
     magazines[] = {"150Rnd_762x51_Box"};
     magazineWell[] = {"M240_762x51","CBA_762x51_LINKS"};
+};
+
+class LMG_Mk200_F: Rifle_Long_Base_F {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        class CowsSlot: asdg_OpticRail1913_long {};
+    };
 };
 
 class EBR_base_F: Rifle_Long_Base_F {
@@ -162,7 +161,6 @@ class sgun_HunterShotgun_01_base_F: Rifle_Long_Base_F {
 };
 
 class Pistol_Base_F: Pistol {
-    magazineReloadTime = 0;
     class WeaponSlotsInfo;
 };
 class hgun_Rook40_F: Pistol_Base_F {
@@ -178,20 +176,11 @@ class hgun_Pistol_01_F: Pistol_Base_F {
     };
 };
 
-
 class Launcher_Base_F: Launcher {
-    magazineReloadTime = 0;
     class WeaponSlotsInfo;
 };
 class launch_RPG7_F: Launcher_Base_F {
-    ace_reloadlaunchers_enabled = 1;
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 120;
     };
-};
-class launch_MRAWS_base_F: Launcher_Base_F {
-    ace_reloadlaunchers_enabled = 1;
-};
-class launch_Vorona_base_F: Launcher_Base_F {
-    ace_reloadlaunchers_enabled = 1;
 };

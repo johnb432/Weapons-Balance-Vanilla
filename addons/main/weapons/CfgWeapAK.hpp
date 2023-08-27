@@ -8,13 +8,15 @@ class arifle_AKM_base_F: Rifle_Base_F {
     rhs_pso1m21_type = "rhs_acc_pso1m21_ak";
 
     class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 70.1;
         class CowsSlot: asdg_OpticSideRail_AK {};
         class MuzzleSlot: MuzzleSlot_762R {};
     };
 };
 class arifle_AKM_F: arifle_AKM_base_F {
     displayName = "AKMN";
+    class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 70.1;
+    };
 };
 class arifle_AKM_FL_F: arifle_AKM_F {
     baseWeapon = "arifle_AKM_FL_F";
