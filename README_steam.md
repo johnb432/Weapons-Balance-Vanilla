@@ -10,6 +10,4 @@ This rebalancing balances items from the basegame:
 
 Visit the [url=https://github.com/johnb432/Weapons-Balance-Vanilla]GitHub[/url] to get all the changed items.
 
-This mod in particular is not actually ACE dependent. The dependency is there if ACE is used (as ACE overwrites some things otherwise).
-
 Credit to all the various mod authors.
