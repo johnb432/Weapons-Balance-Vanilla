@@ -14,7 +14,6 @@ class LMG_03_base_F: Rifle_Long_Base_F {
 };
 class LMG_03_F: LMG_03_base_F {
     ACE_Overheating_allowSwapBarrel = 1;
-    displayName = "FN Minimi Mk3";
     magazineWell[] += {"M249_556x45"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 176.3;
@@ -22,7 +21,6 @@ class LMG_03_F: LMG_03_base_F {
 };
 
 class LMG_Zafir_F: Rifle_Long_Base_F {
-    displayName = "Negev NG-7R";
     magazineWell[] += {"PK_762x54R"};
     class WeaponSlotsInfo: WeaponSlotsInfo {
         class MuzzleSlot: asdg_MuzzleSlot_762 {};
@@ -33,7 +31,6 @@ class LMG_Zafir_B_F: LMG_Zafir_F {
     ACE_barrelLength = 508;
     baseWeapon = "LMG_Zafir_B_F";
     descriptionShort = "Light Machine Gun<br />Caliber: 7.62x51 mm";
-    displayName = "Negev NG-7";
     magazines[] = {"150Rnd_762x51_Box"};
     magazineWell[] = {"M240_762x51","CBA_762x51_LINKS"};
 };

@@ -21,7 +21,7 @@ class CfgMagazineWells {
 
     class CBA_556x45_STANAG {
         MAGAZINE_WELL[] += {
-            "30rnd_556x45_Stanag_Sand_green",
+            "30Rnd_556x45_Stanag_Sand_green",
             "30Rnd_556x45_Stanag_Sand",
             "30Rnd_556x45_Stanag_Sand_green",
             "30Rnd_556x45_Stanag_Sand_red",

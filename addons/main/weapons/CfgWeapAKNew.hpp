@@ -1,3 +1,5 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 class arifle_AK12_F: arifle_AK12_base_F {
     class WeaponSlotsInfo;
 };

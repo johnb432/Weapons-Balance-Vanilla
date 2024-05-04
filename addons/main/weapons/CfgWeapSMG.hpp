@@ -3,7 +3,6 @@ class SMG_05_base_F: Rifle_Short_Base_F {
     class WeaponSlotsInfo;
 };
 class SMG_05_F: SMG_05_base_F {
-    displayName = "HK MP5K-PDW";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 56;
     };

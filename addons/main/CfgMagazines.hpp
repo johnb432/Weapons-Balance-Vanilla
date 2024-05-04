@@ -1,3 +1,5 @@
+#pragma hemtt flag pe23_ignore_has_include
+
 class CfgMagazines {
     class CA_Magazine;
     class 10Rnd_762x51_Mag;

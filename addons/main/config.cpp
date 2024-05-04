@@ -20,6 +20,7 @@ class CfgPatches {
             "Blutze"
         };
         url = "https://github.com/johnb432/Weapons-Balance-Vanilla";
+        skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };
 };

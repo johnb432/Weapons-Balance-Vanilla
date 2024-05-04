@@ -13,14 +13,13 @@ class arifle_AKM_base_F: Rifle_Base_F {
     };
 };
 class arifle_AKM_F: arifle_AKM_base_F {
-    displayName = "AKMN";
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 70.1;
     };
 };
 class arifle_AKM_FL_F: arifle_AKM_F {
     baseWeapon = "arifle_AKM_FL_F";
-    displayName = "AKM (Flashlight)";
+    displayName = "AKM 7.62 mm (Flashlight)";
     scope = 2;
 
     class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -50,17 +49,14 @@ class arifle_AK12_GL_base_F: arifle_AK12_base_F {
 };
 
 class arifle_AK12_GL_F: arifle_AK12_GL_base_F {
-    displayName = "AK-15 (GP-25)";
     class EGLM;
     class WeaponSlotsInfo;
 };
 class arifle_AK12_GL_arid_F: arifle_AK12_GL_base_F {
-    displayName = "AK-15 (GP-25/Arid)";
     class EGLM;
     class WeaponSlotsInfo;
 };
 class arifle_AK12_GL_lush_F: arifle_AK12_GL_base_F {
-    displayName = "AK-15 (GP-25/Lush)";
     class EGLM;
     class WeaponSlotsInfo;
 };
@@ -76,13 +72,4 @@ class arifle_RPK12_base_F: arifle_AK12_base_F {
     class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 110;
     };
-};
-class arifle_RPK12_F: arifle_RPK12_base_F {
-    displayName = "RPKM";
-};
-class arifle_RPK12_arid_F: arifle_RPK12_base_F {
-    displayName = "RPKM (Arid)";
-};
-class arifle_RPK12_lush_F: arifle_RPK12_base_F {
-    displayName = "RPKM (Lush)";
 };
