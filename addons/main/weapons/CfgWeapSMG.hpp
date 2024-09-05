@@ -19,7 +19,7 @@ class SMG_03C_BASE: SMG_03_TR_BASE {
     };
 };
 class SMG_03C_black: SMG_03C_BASE {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 57.3;
     };
 };

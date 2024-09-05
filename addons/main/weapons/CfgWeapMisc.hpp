@@ -69,7 +69,7 @@ class arifle_MXM_F: arifle_MX_Base_F {
 };
 
 class arifle_MSBS65_base_F: Rifle_Base_F {
-    class WeaponSlotsInfo {
+    class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 80;
     };
 };
@@ -79,7 +79,7 @@ class arifle_MSBS65_GL_base_F: arifle_MSBS65_base_F {
     };
 };
 class arifle_MSBS65_Mark_base_F: arifle_MSBS65_base_F {
-    class WeaponSlotsInfo: WeaponSlotsInfo {
+    class WeaponSlotsInfo {
         mass = 91;
     };
 };
